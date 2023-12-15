@@ -1,2 +1,5 @@
 schxslt-cli.jar
 *.jar
+*.py
+*.xml
+*.html
