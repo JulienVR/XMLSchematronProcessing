@@ -1,3 +1,10 @@
-# Schematron for xml validation
+# Schematron for XML validation
 
-Run `validate_sch.sh`. This requires `schxslt-cli.jar`. A SVRL file will be generated. Then, we apply an XSL stylesheet to generate an HTML with the nicely formatted errors.
+Run `validate_sch.sh`. This will:
+* use SchXslt (https://github.com/schxslt/schxslt) to generate a SVRL report file
+* Process the SVRL file using an XSL stylesheet, an produce a nicely formatted HTML
+* Open this HTML with Google Chrome
+
+## Requirements
+* `schxslt-cli.jar`
+* `xsltproc`
